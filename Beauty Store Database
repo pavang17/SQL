@@ -1,0 +1,22 @@
+--Create a beauty store database
+CREATE TABLE beauty (ID integer primary key, name TEXT, price INTEGER, brand TEXT, color TEXT, expire INTEGER); 
+
+INSERT INTO beauty VALUES (1, "Tulip", 4.99, "MAC", "pink", 2024);
+INSERT INTO beauty VALUES (2, "Sage", 8.99, "COVERGIRL", "green", 2025); 
+INSERT INTO beauty VALUES (3, "Doctor", 5.99, "LOREAL", "blue", 2026);
+INSERT INTO beauty VALUES (4, "Chalk", 2.99, "MAC", "white", 2023); 
+INSERT INTO beauty VALUES (5, "Core", 1.99, "Sallys", "orange", 2022);
+INSERT INTO beauty VALUES (6, "Prim", 2.59, "CHANEL", "pink", 2025);
+INSERT INTO beauty VALUES (7, "Outkast", 9.99, "CHANEL", "gold", 2027);
+INSERT INTO beauty VALUES (8, "Not Nice", 6.99, "Lancome", "red", 2026);
+INSERT INTO beauty VALUES (9, "Courage", 7.59, "COVERGIRL", "orange", 2023);
+INSERT INTO beauty VALUES (10, "Bandaid", 4.99, "Sallys", "tan", 2023); 
+INSERT INTO beauty VALUES (11, "Moon", 8.59, "Dior", "white", 2025);
+INSERT INTO beauty VALUES (12, "Star", 3.99, "MAC", "yellow", 2024);
+INSERT INTO beauty VALUES (13, "Sunny", 4.99, "LOREAL", "yellow", 2025);
+INSERT INTO beauty VALUES (14, "Disco", 7.99, "Lancome", "purple", 2025); 
+INSERT INTO beauty VALUES (15, "Pike", 2.99, "MAC", "green", 2026);
+SELECT * FROM beauty;
+
+--Display the database order by price
+SELECT * FROM beauty ORDER BY price
